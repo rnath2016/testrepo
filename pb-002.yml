@@ -1,0 +1,9 @@
+#Simple Ansible Playbook PB1.yml
+# - used to separate plays
+# command, yum, and service are called modules
+-
+ name: My Play 1
+ hosts: ansible-target
+ tasks:
+  - name: Execute command 'date'
+    command: date
