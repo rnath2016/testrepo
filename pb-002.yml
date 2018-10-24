@@ -4,7 +4,7 @@
 -
  name: My Play 1
  hosts: 10.15.108.135
- become: true
+ become: root
  tasks:
   - name: Execute command 'date'
     command: date
