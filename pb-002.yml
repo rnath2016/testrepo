@@ -3,7 +3,7 @@
 # command, yum, and service are called modules
 -
  name: My Play 1
- hosts: ansible-target
+ hosts: 10.15.108.135
  tasks:
   - name: Execute command 'date'
     command: date
